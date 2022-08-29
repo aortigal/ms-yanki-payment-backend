@@ -20,11 +20,11 @@ public class Payment extends Audit {
     @NotNull(message = "recipientPhone must not be null")
     private String recipientPhone;
 
-    @NotNull(message = "comissionMont must not be null")
-    private String comissionMont;
+    @NotNull(message = "comissionAmount must not be null")
+    private String comissionAmount;
 
-    @NotNull(message = "mont must not be null")
-    private float mont;
+    @NotNull(message = "amount must not be null")
+    private float amount;
 
     @NotNull(message = "customerId must not be null")
     private String customerId;
